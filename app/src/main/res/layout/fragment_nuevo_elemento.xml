@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DimGray"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NuevoElementoFragment">
+
+    <ScrollView
+        android:layout_width="388dp"
+        android:layout_height="715dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="Nombre de la publicación"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="Añade una descripción"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/hora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="Qué hora es?"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="URL imagen"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/publicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publicar"
+                android:textSize="32sp"
+                android:shadowColor="@color/Blue"
+                app:iconTint="#000000" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
