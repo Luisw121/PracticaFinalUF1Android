@@ -11,7 +11,6 @@ public class Elemento {
     String descripcion;
     int hora;
     String URL;
-
     float valoracion;
 
     public Elemento(String nombre, String descripcion, int hora ,String URL) {
@@ -19,8 +18,5 @@ public class Elemento {
         this.descripcion = descripcion;
         this.hora = hora;
         this.URL=URL;
-
-
-
     }
 }
